@@ -1,0 +1,120 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #333;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Features Section Styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px;
+}
+
+.red {
+    background-color: #ff5733;
+}
+
+.blue {
+    background-color: #3399ff;
+}
+
+.green {
+    background-color: #33ff77;
+}
+
+.feature h2 {
+    color: #fff;
+}
+
+.feature p {
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
